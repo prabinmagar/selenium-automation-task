@@ -13,6 +13,7 @@
             <class name="testCases.TC006InventoryDescendingPriceSortingTest" />
             <class name="testCases.TC007InventoryProductAddTest" />
             <class name="testCases.TC008CartItemsTest" />
+            <class name="testCases.TC009CheckoutItemsTest" />
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

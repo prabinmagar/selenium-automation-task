@@ -568,3 +568,354 @@ Session ID: 04a7e31da0f5cfb750e9acb677886218
 06:24:52.401 [main] INFO  testCases.TC008CartItemsTest - Verifying cart items against expected product names and prices.
 06:24:52.583 [main] INFO  testCases.TC008CartItemsTest - Cart items match the expected product names and prices.
 06:24:52.584 [main] INFO  testCases.TC008CartItemsTest - Waiting for 2 seconds before next test...
+06:39:30.110 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+06:39:30.188 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:39:35.304 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+06:39:35.320 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+06:39:35.377 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+06:39:35.838 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+06:39:35.838 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+06:39:35.937 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+06:39:35.937 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+06:39:35.937 [main] INFO  testCases.TC001UserInvalidLoginTest - Waiting for 2 seconds before next test...
+06:39:38.141 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:39:39.473 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+06:39:39.473 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+06:39:39.473 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+06:39:39.473 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+06:39:44.134 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+06:39:44.134 [main] INFO  testCases.TC002UserValidLoginTest - Waiting for 2 seconds before next test...
+06:39:46.313 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:39:47.557 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+06:39:47.565 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging into the application.
+06:39:47.565 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+06:39:51.195 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Retrieving selected sort option from the dropdown.
+06:39:51.273 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Selected sort option: Name (A to Z)
+06:39:51.273 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Verified that the default sort option is 'Name (A to Z)'.
+06:39:51.273 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Fetching product names from the inventory.
+06:39:51.382 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Actual product names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+06:39:51.382 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Sorting product names in ascending order for expected result.
+06:39:51.382 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Expected sorted names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+06:39:51.382 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Products are sorted correctly in ascending order by name.
+06:39:51.382 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Waiting for 2 seconds before next test...
+06:39:53.585 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:39:54.851 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+06:39:54.852 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging into the application.
+06:39:54.853 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+06:39:59.322 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Selecting sort option: 'Name (Z to A)'.
+06:39:59.444 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Fetching product names from the inventory.
+06:39:59.568 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Actual product names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+06:39:59.568 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Sorting product names in descending order for expected result.
+06:39:59.568 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Expected sorted names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+06:39:59.568 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Products are sorted correctly in descending order by name.
+06:39:59.568 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Waiting for 2 seconds before next test...
+06:40:01.727 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:40:03.036 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+06:40:03.037 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging into the application.
+06:40:03.037 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+06:40:06.638 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Selecting sort option: 'Price (low to high)'.
+06:40:06.751 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Fetching product prices from the inventory.
+06:40:06.856 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Actual product prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+06:40:06.856 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Sorting product prices in ascending order for expected result.
+06:40:06.856 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Expected sorted prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+06:40:06.856 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Products are sorted correctly in ascending order by price.
+06:40:06.856 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Waiting for 2 seconds before next test...
+06:40:09.022 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:40:10.267 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+06:40:10.267 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging into the application.
+06:40:10.267 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+06:40:14.106 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Selecting sort option: 'Price (high to low)'.
+06:40:14.226 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Fetching product prices from the inventory.
+06:40:14.338 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Actual product prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+06:40:14.338 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Sorting product prices in descending order for expected result.
+06:40:14.338 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Expected sorted prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+06:40:14.338 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Products are sorted correctly in descending order by price.
+06:40:14.354 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Waiting for 2 seconds before next test...
+06:40:16.496 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:40:17.826 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+06:40:17.826 [main] INFO  testCases.TC007InventoryProductAddTest - Logging into the application.
+06:40:17.826 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+06:40:21.156 [main] INFO  testCases.TC007InventoryProductAddTest - Adding the first 3 products to the cart.
+06:40:21.602 [main] INFO  testCases.TC007InventoryProductAddTest - Retrieving actual cart item count.
+06:40:21.623 [main] INFO  testCases.TC007InventoryProductAddTest - Actual cart item count: 3
+06:40:21.623 [main] INFO  testCases.TC007InventoryProductAddTest - Cart item count matches expected number of added products.
+06:40:21.624 [main] INFO  testCases.TC007InventoryProductAddTest - Waiting for 2 seconds before next test...
+06:40:23.778 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:40:25.007 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+06:40:25.007 [main] INFO  testCases.TC008CartItemsTest - Logging into the application.
+06:40:25.007 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+06:40:29.588 [main] INFO  testCases.TC008CartItemsTest - Adding first 3 products to the cart.
+06:40:30.082 [main] INFO  testCases.TC008CartItemsTest - Clicking on the cart icon to navigate to the cart page.
+06:40:30.523 [main] INFO  testCases.TC008CartItemsTest - Verifying that the Cart Page is loaded.
+06:40:30.538 [main] INFO  testCases.TC008CartItemsTest - Cart Page is loaded successfully.
+06:40:30.538 [main] INFO  testCases.TC008CartItemsTest - Verifying cart items against expected product names and prices.
+06:40:30.679 [main] INFO  testCases.TC008CartItemsTest - Cart items match the expected product names and prices.
+06:40:30.679 [main] INFO  testCases.TC008CartItemsTest - Waiting for 2 seconds before next test...
+07:00:33.343 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+07:00:33.374 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:00:36.149 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+07:00:36.161 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+07:00:36.176 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+07:00:36.636 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+07:00:36.636 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+07:00:36.721 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+07:00:36.721 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+07:00:36.721 [main] INFO  testCases.TC001UserInvalidLoginTest - Waiting for 2 seconds before next test...
+07:00:38.896 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:00:40.190 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+07:00:40.190 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+07:00:40.190 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+07:00:40.190 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+07:00:44.428 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+07:00:44.428 [main] INFO  testCases.TC002UserValidLoginTest - Waiting for 2 seconds before next test...
+07:00:46.592 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:00:47.933 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+07:00:47.933 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging into the application.
+07:00:47.933 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+07:00:51.282 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Retrieving selected sort option from the dropdown.
+07:00:51.369 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Selected sort option: Name (A to Z)
+07:00:51.369 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Verified that the default sort option is 'Name (A to Z)'.
+07:00:51.369 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Fetching product names from the inventory.
+07:00:51.494 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Actual product names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+07:00:51.494 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Sorting product names in ascending order for expected result.
+07:00:51.494 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Expected sorted names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+07:00:51.494 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Products are sorted correctly in ascending order by name.
+07:00:51.494 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Waiting for 2 seconds before next test...
+07:00:53.681 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:00:55.113 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+07:00:55.116 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging into the application.
+07:00:55.117 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+07:00:58.638 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Selecting sort option: 'Name (Z to A)'.
+07:00:58.754 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Fetching product names from the inventory.
+07:00:58.867 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Actual product names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+07:00:58.867 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Sorting product names in descending order for expected result.
+07:00:58.867 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Expected sorted names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+07:00:58.867 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Products are sorted correctly in descending order by name.
+07:00:58.867 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Waiting for 2 seconds before next test...
+07:01:01.180 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:01:02.525 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+07:01:02.528 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging into the application.
+07:01:02.528 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+07:01:05.667 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Selecting sort option: 'Price (low to high)'.
+07:01:05.782 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Fetching product prices from the inventory.
+07:01:05.896 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Actual product prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+07:01:05.896 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Sorting product prices in ascending order for expected result.
+07:01:05.896 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Expected sorted prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+07:01:05.896 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Products are sorted correctly in ascending order by price.
+07:01:05.896 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Waiting for 2 seconds before next test...
+07:01:08.070 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:01:09.303 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+07:01:09.303 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging into the application.
+07:01:09.303 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+07:01:12.992 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Selecting sort option: 'Price (high to low)'.
+07:01:13.106 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Fetching product prices from the inventory.
+07:01:13.221 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Actual product prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+07:01:13.221 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Sorting product prices in descending order for expected result.
+07:01:13.221 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Expected sorted prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+07:01:13.221 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Products are sorted correctly in descending order by price.
+07:01:13.221 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Waiting for 2 seconds before next test...
+07:01:15.389 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:01:16.591 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+07:01:16.591 [main] INFO  testCases.TC007InventoryProductAddTest - Logging into the application.
+07:01:16.591 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+07:01:19.966 [main] INFO  testCases.TC007InventoryProductAddTest - Adding the first 3 products to the cart.
+07:01:20.414 [main] INFO  testCases.TC007InventoryProductAddTest - Retrieving actual cart item count.
+07:01:20.437 [main] INFO  testCases.TC007InventoryProductAddTest - Actual cart item count: 3
+07:01:20.437 [main] INFO  testCases.TC007InventoryProductAddTest - Cart item count matches expected number of added products.
+07:01:20.437 [main] INFO  testCases.TC007InventoryProductAddTest - Waiting for 2 seconds before next test...
+07:01:22.581 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:01:23.774 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+07:01:23.774 [main] INFO  testCases.TC008CartItemsTest - Logging into the application.
+07:01:23.774 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+07:01:26.865 [main] INFO  testCases.TC008CartItemsTest - Adding first 3 products to the cart.
+07:01:27.292 [main] INFO  testCases.TC008CartItemsTest - Clicking on the cart icon to navigate to the cart page.
+07:01:27.738 [main] INFO  testCases.TC008CartItemsTest - Verifying that the Cart Page is loaded.
+07:01:27.756 [main] INFO  testCases.TC008CartItemsTest - Cart Page is loaded successfully.
+07:01:27.756 [main] INFO  testCases.TC008CartItemsTest - Verifying cart items against expected product names and prices.
+07:01:27.893 [main] INFO  testCases.TC008CartItemsTest - Cart items match the expected product names and prices.
+07:01:27.894 [main] INFO  testCases.TC008CartItemsTest - Waiting for 2 seconds before next test...
+07:01:30.072 [main] INFO  testCases.TC009CheckoutItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+07:01:31.462 [main] INFO  testCases.TC009CheckoutItemsTest - Navigated to application URL
+07:01:31.462 [main] INFO  testCases.TC009CheckoutItemsTest - Starting test: verifyCheckoutWithValidDetails
+07:01:31.462 [main] INFO  testCases.TC009CheckoutItemsTest - Logging in with valid credentials
+07:01:35.568 [main] INFO  testCases.TC009CheckoutItemsTest - Logged in successfully.
+07:01:35.584 [main] INFO  testCases.TC009CheckoutItemsTest - Inventory page loaded successfully.
+07:01:35.899 [main] INFO  testCases.TC009CheckoutItemsTest - Added first 2 products to the cart.
+07:01:35.901 [main] INFO  testCases.TC009CheckoutItemsTest - Expected subtotal calculated: $39.98
+07:01:36.146 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked on cart icon to proceed to cart page.
+07:01:46.591 [main] INFO  testCases.TC009CheckoutItemsTest - Waiting for 2 seconds before next test...
+07:05:04.517 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prabin Magar\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+07:05:04.564 [main] INFO  testCases.TC009CheckoutItemsTest - Initializing WebDriver for browser: chrome on OS: windows
+07:05:09.587 [main] INFO  testCases.TC009CheckoutItemsTest - Navigated to application URL
+07:05:09.604 [main] INFO  testCases.TC009CheckoutItemsTest - Starting test: verifyCheckoutWithValidDetails
+07:05:09.624 [main] INFO  testCases.TC009CheckoutItemsTest - Logging in with valid credentials
+07:05:13.943 [main] INFO  testCases.TC009CheckoutItemsTest - Logged in successfully.
+07:05:13.958 [main] INFO  testCases.TC009CheckoutItemsTest - Inventory page loaded successfully.
+07:05:14.325 [main] INFO  testCases.TC009CheckoutItemsTest - Added first 2 products to the cart.
+07:05:14.325 [main] INFO  testCases.TC009CheckoutItemsTest - Expected subtotal calculated: $39.98
+07:05:14.639 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked on cart icon to proceed to cart page.
+07:05:25.106 [main] INFO  testCases.TC009CheckoutItemsTest - Waiting for 2 seconds before next test...
+20:49:21.593 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prabin Magar\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+20:49:21.666 [main] INFO  testCases.TC009CheckoutItemsTest - Initializing WebDriver for browser: chrome on OS: windows
+20:50:36.850 [main] INFO  testCases.TC009CheckoutItemsTest - Navigated to application URL
+20:50:36.870 [main] INFO  testCases.TC009CheckoutItemsTest - Starting test: verifyCheckoutWithValidDetails
+20:50:36.967 [main] INFO  testCases.TC009CheckoutItemsTest - Logging in with valid credentials
+20:50:41.292 [main] INFO  testCases.TC009CheckoutItemsTest - Logged in successfully.
+20:50:41.408 [main] INFO  testCases.TC009CheckoutItemsTest - Inventory page loaded successfully.
+20:50:41.754 [main] INFO  testCases.TC009CheckoutItemsTest - Added first 2 products to the cart.
+20:50:41.756 [main] INFO  testCases.TC009CheckoutItemsTest - Expected subtotal calculated: $39.98
+20:50:42.232 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked on cart icon to proceed to cart page.
+20:50:43.217 [main] INFO  testCases.TC009CheckoutItemsTest - Filled in checkout form with valid details.
+20:50:43.699 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked Continue to proceed to checkout summary.
+20:50:43.778 [main] INFO  testCases.TC009CheckoutItemsTest - Actual subtotal retrieved from UI: $39.98
+20:50:43.778 [main] INFO  testCases.TC009CheckoutItemsTest - Verified that actual subtotal matches expected subtotal.
+20:50:44.598 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked Finish to complete the order.
+20:50:44.709 [main] INFO  testCases.TC009CheckoutItemsTest - Waiting for 2 seconds before next test...
+20:52:53.386 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prabin Magar\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+20:52:53.463 [main] INFO  testCases.TC009CheckoutItemsTest - Initializing WebDriver for browser: chrome on OS: windows
+20:52:59.856 [main] INFO  testCases.TC009CheckoutItemsTest - Navigated to application URL
+20:52:59.874 [main] INFO  testCases.TC009CheckoutItemsTest - Starting test: verifyCheckoutWithValidDetails
+20:52:59.935 [main] INFO  testCases.TC009CheckoutItemsTest - Logging in with valid credentials
+20:53:03.997 [main] INFO  testCases.TC009CheckoutItemsTest - Logged in successfully.
+20:53:04.009 [main] INFO  testCases.TC009CheckoutItemsTest - Inventory page loaded successfully.
+20:53:04.386 [main] INFO  testCases.TC009CheckoutItemsTest - Added first 2 products to the cart.
+20:53:04.388 [main] INFO  testCases.TC009CheckoutItemsTest - Expected subtotal calculated: $39.98
+20:53:04.651 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked on cart icon to proceed to cart page.
+20:53:05.377 [main] INFO  testCases.TC009CheckoutItemsTest - Filled in checkout form with valid details.
+20:53:05.645 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked Continue to proceed to checkout summary.
+20:53:05.730 [main] INFO  testCases.TC009CheckoutItemsTest - Actual subtotal retrieved from UI: $39.98
+20:53:05.731 [main] INFO  testCases.TC009CheckoutItemsTest - Verified that actual subtotal matches expected subtotal.
+20:53:06.155 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked Finish to complete the order.
+20:53:06.251 [main] INFO  testCases.TC009CheckoutItemsTest - Waiting for 2 seconds before next test...
+20:54:31.087 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prabin Magar\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+20:54:31.142 [main] INFO  testCases.TC009CheckoutItemsTest - Initializing WebDriver for browser: chrome on OS: windows
+20:54:38.805 [main] INFO  testCases.TC009CheckoutItemsTest - Navigated to application URL
+20:54:38.817 [main] INFO  testCases.TC009CheckoutItemsTest - Starting test: verifyCheckoutWithValidDetails
+20:54:38.833 [main] INFO  testCases.TC009CheckoutItemsTest - Logging in with valid credentials
+20:54:52.609 [main] INFO  testCases.TC009CheckoutItemsTest - Logged in successfully.
+20:54:52.630 [main] INFO  testCases.TC009CheckoutItemsTest - Inventory page loaded successfully.
+20:54:52.973 [main] INFO  testCases.TC009CheckoutItemsTest - Added first 2 products to the cart.
+20:54:52.975 [main] INFO  testCases.TC009CheckoutItemsTest - Expected subtotal calculated: $39.98
+20:54:53.312 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked on cart icon to proceed to cart page.
+20:54:54.171 [main] INFO  testCases.TC009CheckoutItemsTest - Filled in checkout form with valid details.
+20:54:54.513 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked Continue to proceed to checkout summary.
+20:54:54.598 [main] INFO  testCases.TC009CheckoutItemsTest - Actual subtotal retrieved from UI: $39.98
+20:54:54.599 [main] INFO  testCases.TC009CheckoutItemsTest - Verified that actual subtotal matches expected subtotal.
+20:54:55.686 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked Finish to complete the order.
+20:54:55.774 [main] INFO  testCases.TC009CheckoutItemsTest - Order completed successfully. Thank you page verified.
+20:54:55.775 [main] INFO  testCases.TC009CheckoutItemsTest - Test completed: verifyCheckoutWithValidDetails
+20:54:55.777 [main] INFO  testCases.TC009CheckoutItemsTest - Waiting for 2 seconds before next test...
+21:20:48.031 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+21:20:48.070 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:20:51.170 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+21:20:51.182 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+21:20:51.204 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+21:20:51.588 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+21:20:51.588 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+21:20:51.684 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+21:20:51.685 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+21:20:51.687 [main] INFO  testCases.TC001UserInvalidLoginTest - Waiting for 2 seconds before next test...
+21:20:53.902 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:21:01.819 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+21:21:01.822 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+21:21:01.824 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+21:21:01.824 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+21:21:24.052 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+21:21:24.055 [main] INFO  testCases.TC002UserValidLoginTest - Waiting for 2 seconds before next test...
+21:21:26.258 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:21:30.152 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+21:21:30.153 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging into the application.
+21:21:30.153 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+21:21:39.641 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Retrieving selected sort option from the dropdown.
+21:21:39.745 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Selected sort option: Name (A to Z)
+21:21:39.746 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Verified that the default sort option is 'Name (A to Z)'.
+21:21:39.746 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Fetching product names from the inventory.
+21:21:39.858 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Actual product names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+21:21:39.858 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Sorting product names in ascending order for expected result.
+21:21:39.859 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Expected sorted names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+21:21:39.861 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Products are sorted correctly in ascending order by name.
+21:21:39.862 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Waiting for 2 seconds before next test...
+21:21:42.058 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:21:46.177 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+21:21:46.178 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging into the application.
+21:21:46.179 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+21:22:34.388 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Selecting sort option: 'Name (Z to A)'.
+21:22:34.511 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Fetching product names from the inventory.
+21:22:34.637 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Actual product names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+21:22:34.638 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Sorting product names in descending order for expected result.
+21:22:34.638 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Expected sorted names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+21:22:34.638 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Products are sorted correctly in descending order by name.
+21:22:34.639 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Waiting for 2 seconds before next test...
+21:22:36.864 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:22:39.309 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+21:22:39.310 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging into the application.
+21:22:39.311 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+21:22:44.268 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Selecting sort option: 'Price (low to high)'.
+21:22:44.378 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Fetching product prices from the inventory.
+21:22:44.499 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Actual product prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+21:22:44.500 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Sorting product prices in ascending order for expected result.
+21:22:44.500 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Expected sorted prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+21:22:44.500 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Products are sorted correctly in ascending order by price.
+21:22:44.501 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Waiting for 2 seconds before next test...
+21:22:46.683 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:22:49.053 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+21:22:49.054 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging into the application.
+21:22:49.054 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+21:22:54.135 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Selecting sort option: 'Price (high to low)'.
+21:22:54.258 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Fetching product prices from the inventory.
+21:22:54.383 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Actual product prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+21:22:54.384 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Sorting product prices in descending order for expected result.
+21:22:54.384 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Expected sorted prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+21:22:54.384 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Products are sorted correctly in descending order by price.
+21:22:54.385 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Waiting for 2 seconds before next test...
+21:22:56.565 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:22:59.208 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+21:22:59.210 [main] INFO  testCases.TC007InventoryProductAddTest - Logging into the application.
+21:22:59.210 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+21:23:09.026 [main] INFO  testCases.TC007InventoryProductAddTest - Adding the first 3 products to the cart.
+21:23:09.458 [main] INFO  testCases.TC007InventoryProductAddTest - Retrieving actual cart item count.
+21:23:09.479 [main] INFO  testCases.TC007InventoryProductAddTest - Actual cart item count: 3
+21:23:09.479 [main] INFO  testCases.TC007InventoryProductAddTest - Cart item count matches expected number of added products.
+21:23:09.480 [main] INFO  testCases.TC007InventoryProductAddTest - Waiting for 2 seconds before next test...
+21:23:11.682 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:23:14.412 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+21:23:14.412 [main] INFO  testCases.TC008CartItemsTest - Logging into the application.
+21:23:14.413 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+21:23:23.447 [main] INFO  testCases.TC008CartItemsTest - Adding first 3 products to the cart.
+21:23:23.883 [main] INFO  testCases.TC008CartItemsTest - Clicking on the cart icon to navigate to the cart page.
+21:23:24.705 [main] INFO  testCases.TC008CartItemsTest - Verifying that the Cart Page is loaded.
+21:23:24.711 [main] INFO  testCases.TC008CartItemsTest - Cart Page is loaded successfully.
+21:23:24.711 [main] INFO  testCases.TC008CartItemsTest - Verifying cart items against expected product names and prices.
+21:23:24.839 [main] INFO  testCases.TC008CartItemsTest - Cart items match the expected product names and prices.
+21:23:24.840 [main] INFO  testCases.TC008CartItemsTest - Waiting for 2 seconds before next test...
+21:23:27.045 [main] INFO  testCases.TC009CheckoutItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+21:23:30.746 [main] INFO  testCases.TC009CheckoutItemsTest - Navigated to application URL
+21:23:30.747 [main] INFO  testCases.TC009CheckoutItemsTest - Starting test: verifyCheckoutWithValidDetails
+21:23:30.747 [main] INFO  testCases.TC009CheckoutItemsTest - Logging in with valid credentials
+21:23:37.583 [main] INFO  testCases.TC009CheckoutItemsTest - Logged in successfully.
+21:23:37.593 [main] INFO  testCases.TC009CheckoutItemsTest - Inventory page loaded successfully.
+21:23:37.915 [main] INFO  testCases.TC009CheckoutItemsTest - Added first 2 products to the cart.
+21:23:37.917 [main] INFO  testCases.TC009CheckoutItemsTest - Expected subtotal calculated: $39.98
+21:23:38.182 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked on cart icon to proceed to cart page.
+21:23:39.107 [main] INFO  testCases.TC009CheckoutItemsTest - Filled in checkout form with valid details.
+21:23:39.597 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked Continue to proceed to checkout summary.
+21:23:39.672 [main] INFO  testCases.TC009CheckoutItemsTest - Actual subtotal retrieved from UI: $39.98
+21:23:39.672 [main] INFO  testCases.TC009CheckoutItemsTest - Verified that actual subtotal matches expected subtotal.
+21:23:40.710 [main] INFO  testCases.TC009CheckoutItemsTest - Clicked Finish to complete the order.
+21:23:40.798 [main] INFO  testCases.TC009CheckoutItemsTest - Order completed successfully. Thank you page verified.
+21:23:40.798 [main] INFO  testCases.TC009CheckoutItemsTest - Test completed: verifyCheckoutWithValidDetails
+21:23:40.799 [main] INFO  testCases.TC009CheckoutItemsTest - Waiting for 2 seconds before next test...

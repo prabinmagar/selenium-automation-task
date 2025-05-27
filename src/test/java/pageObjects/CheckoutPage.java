@@ -6,42 +6,69 @@ import org.openqa.selenium.support.FindBy;
 
 public class CheckoutPage extends BasePage {
     @FindBy(xpath = "//input[@id='first-name']")
-    private WebElement txtFirstName;
+    protected WebElement txtFirstName;
 
     @FindBy(xpath = "//input[@id='last-name']")
-    private WebElement txtLastName;
+    protected WebElement txtLastName;
 
     @FindBy(xpath = "//input[@id='postal-code']")
-    private WebElement txtPostalCode;
+    protected WebElement txtPostalCode;
 
     @FindBy(xpath = "//a[contains(@class,'checkout_button')]")
-    private WebElement btnCheckout;
+    protected WebElement btnCheckout;
 
     @FindBy(xpath = "//input[contains(@class,'cart_button')]")
-    private WebElement btnCheckoutContinue;
+    protected WebElement btnCheckoutContinue;
 
     @FindBy(xpath = "//a[contains(@class, 'cart_button') and normalize-space() = 'FINISH']")
-    private WebElement btnFinish;
+    protected WebElement btnFinish;
 
     @FindBy(xpath = "//h2[@class='complete-header']")
-    private WebElement lblCompleteHeader;
+    protected WebElement lblCompleteHeader;
+
+    @FindBy(xpath = "//div[@class='summary_subtotal_label']")
+    protected WebElement lblSubtotal;
 
     public CheckoutPage(WebDriver driver) {
         super(driver);
     }
 
-    public void fillCheckoutInfo(String firstName, String lastName, String postalCode) {
+    public void clickCheckoutButton() {
+        waitForClickability(btnCheckout);
+        click(btnCheckout);
+    }
+
+    public void enterFirstName(String firstName) {
+        waitForVisibility(txtFirstName);
         type(txtFirstName, firstName);
+    }
+
+    public void enterLastName(String lastName) {
+        waitForVisibility(txtLastName);
         type(txtLastName, lastName);
+    }
+
+    public void enterPostalCode(String postalCode) {
+        waitForVisibility(txtPostalCode);
         type(txtPostalCode, postalCode);
+    }
+
+    public void clickContinue() {
+        waitForClickability(btnCheckoutContinue);
         click(btnCheckoutContinue);
     }
 
+    public String getSubtotalText() {
+        waitForVisibility(lblSubtotal);
+        return getText(lblSubtotal);
+    }
+
     public void finishOrder() {
+        waitForClickability(btnFinish);
         click(btnFinish);
     }
 
     public boolean isOrderComplete() {
-        return isDisplayed(lblCompleteHeader) && getText(lblCompleteHeader).equalsIgnoreCase("Thank you for your order!");
+        return isDisplayed(lblCompleteHeader) && getText(lblCompleteHeader).equalsIgnoreCase("THANK YOU FOR YOUR ORDER");
     }
 }
