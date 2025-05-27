@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <!-- Properties: Define reusable variables -->
+    <Properties>
+        <!-- Base path for log files -->
+        <Property name="basePath">./logs</Property>
+    </Properties>
+
+    <!-- Appenders: Where and how the logs will be recorded -->
+    <Appenders>
+        <!-- Console Appender: Logs output to the console (e.g., terminal) -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <!-- Pattern explanation:
+                 %d - date/time
+                 %t - thread name
+                 %-5level - log level padded
+                 %logger{36} - logger name
+                 %msg - log message
+                 %n - new line
+            -->
+        </Console>
+
+        <!-- Rolling File Appender: Logs to a file and rolls over based on size/time -->
+        <RollingFile name="File"
+                     fileName="${basePath}/automation.log"
+                     filePattern="${basePath}/automation-%d{yyyy-MM-dd}-%i.log.gz">
+
+            <!-- Log message format for file -->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+
+            <!-- Triggering policies to decide when to roll the file -->
+            <Policies>
+                <!-- Roll over daily -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <!-- Also roll over if file exceeds 10MB -->
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+
+            <!-- Strategy to keep up to 10 rolled files -->
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+
+    <!-- Loggers: Define logging level and which appenders to use -->
+    <Loggers>
+        <!-- Root logger applies to all packages unless overridden -->
+        <Root level="Info"> <!-- Debug can be used here for the depth log - mostly understood developers -->
+            <!-- Log to console -->
+            <AppenderRef ref="Console"/>
+            <!-- Log to rolling file -->
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

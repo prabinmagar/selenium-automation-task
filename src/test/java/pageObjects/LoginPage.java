@@ -9,18 +9,17 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage extends  BasePage{
     // LOCATORS
     @FindBy(xpath = "//input[@id='user-name' and @name='user-name']")
-    private WebElement txtUsername;
+    protected WebElement txtUsername;
     @FindBy(xpath = "//input[@id='password' and @name='password']")
-    private WebElement txtPassword;
+    protected WebElement txtPassword;
     @FindBy(xpath = "//input[@id='login-button' and @type='submit']")
-    private WebElement btnLogin;
+    protected WebElement btnLogin;
     @FindBy(xpath = "//h3[normalize-space()='Epic sadface: Sorry, this user has been locked out.']")
-    private WebElement msgError;
+    protected WebElement msgError;
 
     // CONSTRUCTOR
     public LoginPage(WebDriver driver){
         super(driver);
-        PageFactory.initElements(driver, this);
     }
 
     // ACTIONS

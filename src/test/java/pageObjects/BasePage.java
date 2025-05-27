@@ -23,6 +23,7 @@ public class BasePage {
     // CONSTRUCTOR
     public BasePage(WebDriver driver){
         this.driver = driver;
+        PageFactory.initElements(driver, this);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
@@ -61,33 +62,7 @@ public class BasePage {
         }
     }
 
-    public void setup(){
-        ChromeOptions options = new ChromeOptions();
-
-        //Disable password save prompt, notifications and more
-        Map<String, Object> prefs = new HashMap<>();
-        prefs.put("credentials_enable_service", false);
-        prefs.put("profile.password_manager_enabled", false);
-        prefs.put("profile.default_content_setting_values.notifications", 2);
-        prefs.put("profile.default_content_setting_values.automatic_downloads", 1);
-
-        options.setExperimentalOption("prefs", prefs);
-        options.addArguments("--disable-notifications");
-        options.addArguments("--disable-popup-blocking");
-        options.addArguments("--disable-save-password-bubble");
-        options.addArguments("--disable-features=AutofillAssistant,PasswordManagerOnboarding");
-        options.addArguments("--incognito"); // ensures no cached profile or saved credentials
-
-        driver = new ChromeDriver(options);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.manage().window().maximize();
-        driver.get("https://www.saucedemo.com/v1/");
+    protected String getCurrentUrl(){
+        return driver.getCurrentUrl();
     }
-
-//    @AfterMethod
-//    public void tearDown() {
-//        if (driver != null) {
-//            driver.quit();
-//        }
-//    }
 }

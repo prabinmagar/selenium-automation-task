@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <parameter name="os" value="Windows" />
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="testCases.TC001UserInvalidLoginTest" />
+            <class name="testCases.TC002UserValidLoginTest" />
+            <class name="testCases.TC003InventoryDefaultNameSortingTest" />
+            <class name="testCases.TC004InventoryDescendingNameSortingTest" />
+            <class name="testCases.TC005InventoryAscendingPriceSortingTest" />
+            <class name="testCases.TC006InventoryDescendingPriceSortingTest" />
+            <class name="testCases.TC007InventoryProductAddTest" />
+            <class name="testCases.TC008CartItemsTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,570 @@
+06:04:29.637 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+06:04:29.777 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:04:43.031 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+06:04:43.060 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+06:04:43.152 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+06:04:44.010 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+06:04:44.012 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+06:04:44.208 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+06:04:44.208 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+06:04:44.494 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:04:46.702 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+06:04:46.706 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+06:04:46.707 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+06:04:46.707 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+06:04:50.374 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+06:04:52.446 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:04:54.601 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+06:04:54.603 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+06:04:58.650 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:05:00.485 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+06:05:00.492 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+06:05:04.342 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:05:06.186 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+06:05:06.187 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+06:05:10.171 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:05:12.001 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+06:05:12.003 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+06:05:15.848 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:05:17.866 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+06:05:17.868 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+06:05:22.359 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:05:24.249 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+06:05:24.251 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+06:06:23.103 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+06:06:23.195 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:25.870 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+06:06:25.887 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+06:06:25.915 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+06:06:26.638 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+06:06:26.712 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+06:06:26.712 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+06:06:26.743 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:26.856 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+06:06:26.857 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+06:06:29.160 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:29.534 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+06:06:29.559 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+06:06:29.594 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+06:06:30.412 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+06:06:30.413 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+06:06:30.547 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+06:06:30.547 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+06:06:30.881 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+06:06:30.882 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+06:06:30.882 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+06:06:30.882 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+06:06:32.757 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:34.552 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+06:06:34.553 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+06:06:34.553 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+06:06:34.554 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+06:06:35.110 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+06:06:37.308 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:38.458 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+06:06:39.051 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+06:06:39.056 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+06:06:40.848 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:43.133 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+06:06:43.138 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+06:06:46.451 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:48.280 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+06:06:48.282 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+06:06:50.394 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:52.317 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+06:06:52.318 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+06:06:55.094 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:06:56.809 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+06:06:56.810 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+06:06:58.493 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:07:00.326 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+06:07:00.327 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+06:07:03.120 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:07:05.344 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+06:07:05.347 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+06:07:06.984 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:07:08.702 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+06:07:08.704 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+06:07:12.148 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:07:13.516 [main] ERROR testCases.TC006InventoryDescendingPriceSortingTest - Login failed due to exception: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [adfdfb5a8162ca0a1eb8cf0e915d7652, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59031/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adfdfb5a8162ca0a1eb8cf0e915d7652
+org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [adfdfb5a8162ca0a1eb8cf0e915d7652, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59031}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59031/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: adfdfb5a8162ca0a1eb8cf0e915d7652
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325) ~[selenium-remote-driver-4.32.0.jar:?]
+	at testBase.BaseClass.loginToApplication(BaseClass.java:119) ~[test-classes/:?]
+	at testCases.TC006InventoryDescendingPriceSortingTest.verifyDefaultSortingIsAscendingByName(TC006InventoryDescendingPriceSortingTest.java:15) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+06:07:14.043 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+06:07:14.044 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+06:07:15.622 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:07:16.779 [main] ERROR testCases.TC007InventoryProductAddTest - Login failed due to exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2caf3ce49bb0a7b114921886a422ec48, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59101/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2caf3ce49bb0a7b114921886a422ec48
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2caf3ce49bb0a7b114921886a422ec48, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59101/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2caf3ce49bb0a7b114921886a422ec48
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325) ~[selenium-remote-driver-4.32.0.jar:?]
+	at testBase.BaseClass.loginToApplication(BaseClass.java:119) ~[test-classes/:?]
+	at testCases.TC007InventoryProductAddTest.addMultipleProductsToCart(TC007InventoryProductAddTest.java:11) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+06:07:17.230 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+06:07:17.233 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+06:07:18.883 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:07:20.095 [main] ERROR testCases.TC007InventoryProductAddTest - Login failed due to exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3aa9c6f024a1566f65067666659b8e4, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59167/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3aa9c6f024a1566f65067666659b8e4
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f3aa9c6f024a1566f65067666659b8e4, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59167/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f3aa9c6f024a1566f65067666659b8e4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325) ~[selenium-remote-driver-4.32.0.jar:?]
+	at testBase.BaseClass.loginToApplication(BaseClass.java:119) ~[test-classes/:?]
+	at testCases.TC007InventoryProductAddTest.addMultipleProductsToCart(TC007InventoryProductAddTest.java:11) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+06:07:20.521 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+06:07:20.525 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+06:07:22.182 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:07:23.329 [main] ERROR testCases.TC008CartItemsTest - Login failed due to exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aba0848308e8926975b459801586e5a7, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59218/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aba0848308e8926975b459801586e5a7
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aba0848308e8926975b459801586e5a7, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59218/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aba0848308e8926975b459801586e5a7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325) ~[selenium-remote-driver-4.32.0.jar:?]
+	at testBase.BaseClass.loginToApplication(BaseClass.java:119) ~[test-classes/:?]
+	at testCases.TC008CartItemsTest.verifyCartAfterAddingProducts(TC008CartItemsTest.java:12) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+06:07:23.836 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+06:07:23.838 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+06:07:26.489 [main] ERROR testCases.TC008CartItemsTest - Login failed due to exception: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04a7e31da0f5cfb750e9acb677886218, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59277/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04a7e31da0f5cfb750e9acb677886218
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04a7e31da0f5cfb750e9acb677886218, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PRABIN~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59277/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04a7e31da0f5cfb750e9acb677886218
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622) ~[selenium-remote-driver-4.32.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325) ~[selenium-remote-driver-4.32.0.jar:?]
+	at testBase.BaseClass.loginToApplication(BaseClass.java:119) ~[test-classes/:?]
+	at testCases.TC008CartItemsTest.verifyCartAfterAddingProducts(TC008CartItemsTest.java:12) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+06:14:32.124 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+06:14:32.207 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:14:34.763 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+06:14:34.789 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+06:14:34.923 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+06:14:34.918 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+06:14:35.098 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:14:35.738 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+06:14:35.926 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+06:14:36.116 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+06:14:36.116 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+06:14:36.442 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:14:39.145 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+06:14:39.147 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+06:14:39.147 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+06:14:39.149 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+06:14:39.409 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+06:14:39.454 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+06:14:39.506 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+06:14:40.111 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+06:14:40.111 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+06:14:40.216 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+06:14:40.216 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+06:14:40.465 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:14:42.059 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+06:14:42.060 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+06:14:42.061 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+06:14:42.061 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+06:14:42.873 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+06:14:44.994 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:14:46.023 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+06:14:46.784 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:14:47.683 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+06:14:47.685 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+06:14:48.681 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+06:14:48.683 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+06:14:53.076 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:14:53.883 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:14:54.977 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+06:14:54.980 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+06:14:56.394 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+06:14:56.398 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+06:14:59.638 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:15:00.776 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:15:01.124 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+06:15:01.126 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+06:15:02.503 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+06:15:02.505 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+06:15:05.932 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:15:06.636 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:15:07.467 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+06:15:07.471 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+06:15:08.946 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+06:15:08.948 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+06:15:12.375 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:15:13.213 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:15:14.153 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+06:15:14.156 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+06:15:15.580 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+06:15:15.582 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+06:15:19.787 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:15:20.944 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:15:21.570 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+06:15:21.573 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+06:15:23.070 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+06:15:23.072 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+06:23:51.178 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\AssignmentSwagLabsFinalProject\testng.xml
+
+06:23:51.237 [main] INFO  testCases.TC001UserInvalidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:23:53.616 [main] INFO  testCases.TC001UserInvalidLoginTest - Navigated to application URL
+06:23:53.644 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Starting TC001UserLoginTest *****
+06:23:53.683 [main] INFO  testCases.TC001UserInvalidLoginTest - LoginPage initialized
+06:23:54.390 [main] INFO  testCases.TC001UserInvalidLoginTest - Clicked login with username: locked_out_user
+06:23:54.391 [main] INFO  testCases.TC001UserInvalidLoginTest - Validating error message for locked out user
+06:23:54.586 [main] INFO  testCases.TC001UserInvalidLoginTest - Error message validation passed
+06:23:54.586 [main] INFO  testCases.TC001UserInvalidLoginTest - ***** Finished TC001UserLoginTest *****
+06:23:54.586 [main] INFO  testCases.TC001UserInvalidLoginTest - Waiting for 2 seconds before next test...
+06:23:56.852 [main] INFO  testCases.TC002UserValidLoginTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:23:58.387 [main] INFO  testCases.TC002UserValidLoginTest - Navigated to application URL
+06:23:58.389 [main] INFO  testCases.TC002UserValidLoginTest - ***** Starting TC002UserLoginTest *****
+06:23:58.389 [main] INFO  testCases.TC002UserValidLoginTest - LoginPage initialized
+06:23:58.389 [main] INFO  testCases.TC002UserValidLoginTest - Logging in with valid credentials
+06:24:02.588 [main] INFO  testCases.TC002UserValidLoginTest - ***** Finished TC002UserLoginTest *****
+06:24:02.589 [main] INFO  testCases.TC002UserValidLoginTest - Waiting for 2 seconds before next test...
+06:24:04.812 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:24:06.591 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Navigated to application URL
+06:24:06.593 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging into the application.
+06:24:06.594 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Logging in with valid credentials
+06:24:10.403 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Retrieving selected sort option from the dropdown.
+06:24:10.517 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Selected sort option: Name (A to Z)
+06:24:10.517 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Verified that the default sort option is 'Name (A to Z)'.
+06:24:10.517 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Fetching product names from the inventory.
+06:24:10.687 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Actual product names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+06:24:10.687 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Sorting product names in ascending order for expected result.
+06:24:10.687 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Expected sorted names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+06:24:10.690 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Products are sorted correctly in ascending order by name.
+06:24:10.691 [main] INFO  testCases.TC003InventoryDefaultNameSortingTest - Waiting for 2 seconds before next test...
+06:24:12.952 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:24:14.590 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Navigated to application URL
+06:24:14.591 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging into the application.
+06:24:14.593 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Logging in with valid credentials
+06:24:18.062 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Selecting sort option: 'Name (Z to A)'.
+06:24:18.355 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Fetching product names from the inventory.
+06:24:18.524 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Actual product names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+06:24:18.524 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Sorting product names in descending order for expected result.
+06:24:18.525 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Expected sorted names: [Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack]
+06:24:18.525 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Products are sorted correctly in descending order by name.
+06:24:18.526 [main] INFO  testCases.TC004InventoryDescendingNameSortingTest - Waiting for 2 seconds before next test...
+06:24:20.778 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:24:22.330 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Navigated to application URL
+06:24:22.332 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging into the application.
+06:24:22.333 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Logging in with valid credentials
+06:24:25.839 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Selecting sort option: 'Price (low to high)'.
+06:24:25.982 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Fetching product prices from the inventory.
+06:24:26.160 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Actual product prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+06:24:26.162 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Sorting product prices in ascending order for expected result.
+06:24:26.162 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Expected sorted prices: [7.99, 9.99, 15.99, 15.99, 29.99, 49.99]
+06:24:26.162 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Products are sorted correctly in ascending order by price.
+06:24:26.163 [main] INFO  testCases.TC005InventoryAscendingPriceSortingTest - Waiting for 2 seconds before next test...
+06:24:28.391 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:24:30.033 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Navigated to application URL
+06:24:30.036 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging into the application.
+06:24:30.036 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Logging in with valid credentials
+06:24:34.412 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Selecting sort option: 'Price (high to low)'.
+06:24:34.716 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Fetching product prices from the inventory.
+06:24:34.884 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Actual product prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+06:24:34.884 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Sorting product prices in descending order for expected result.
+06:24:34.884 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Expected sorted prices: [49.99, 29.99, 15.99, 15.99, 9.99, 7.99]
+06:24:34.885 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Products are sorted correctly in descending order by price.
+06:24:34.885 [main] INFO  testCases.TC006InventoryDescendingPriceSortingTest - Waiting for 2 seconds before next test...
+06:24:37.133 [main] INFO  testCases.TC007InventoryProductAddTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:24:38.852 [main] INFO  testCases.TC007InventoryProductAddTest - Navigated to application URL
+06:24:38.853 [main] INFO  testCases.TC007InventoryProductAddTest - Logging into the application.
+06:24:38.854 [main] INFO  testCases.TC007InventoryProductAddTest - Logging in with valid credentials
+06:24:42.417 [main] INFO  testCases.TC007InventoryProductAddTest - Adding the first 3 products to the cart.
+06:24:43.104 [main] INFO  testCases.TC007InventoryProductAddTest - Retrieving actual cart item count.
+06:24:43.147 [main] INFO  testCases.TC007InventoryProductAddTest - Actual cart item count: 3
+06:24:43.148 [main] INFO  testCases.TC007InventoryProductAddTest - Cart item count matches expected number of added products.
+06:24:43.150 [main] INFO  testCases.TC007InventoryProductAddTest - Waiting for 2 seconds before next test...
+06:24:45.389 [main] INFO  testCases.TC008CartItemsTest - Initializing WebDriver for browser: chrome on OS: Windows
+06:24:46.864 [main] INFO  testCases.TC008CartItemsTest - Navigated to application URL
+06:24:46.865 [main] INFO  testCases.TC008CartItemsTest - Logging into the application.
+06:24:46.865 [main] INFO  testCases.TC008CartItemsTest - Logging in with valid credentials
+06:24:50.761 [main] INFO  testCases.TC008CartItemsTest - Adding first 3 products to the cart.
+06:24:51.409 [main] INFO  testCases.TC008CartItemsTest - Clicking on the cart icon to navigate to the cart page.
+06:24:52.386 [main] INFO  testCases.TC008CartItemsTest - Verifying that the Cart Page is loaded.
+06:24:52.400 [main] INFO  testCases.TC008CartItemsTest - Cart Page is loaded successfully.
+06:24:52.401 [main] INFO  testCases.TC008CartItemsTest - Verifying cart items against expected product names and prices.
+06:24:52.583 [main] INFO  testCases.TC008CartItemsTest - Cart items match the expected product names and prices.
+06:24:52.584 [main] INFO  testCases.TC008CartItemsTest - Waiting for 2 seconds before next test...
